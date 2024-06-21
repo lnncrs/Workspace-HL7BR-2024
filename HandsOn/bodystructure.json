@@ -1,0 +1,33 @@
+{
+    "resourceType": "BodyStructure",
+    "active": true,
+    "morphology":
+    {
+        "coding":
+        [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "8145008",
+                "display": "tumor misto maligno"
+            }
+        ],
+        "text": "neoplasia maligna de mama"
+    },
+    "location":
+    {
+        "coding":
+        [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "80248007",
+                "display": "mama esquerda"
+            }
+        ],
+        "text": "mama esquerda"
+    },
+    "description": "Neoplasia estromal E/OU complexo misto, primário",
+    "patient":
+    {
+        "reference": "Patient/44766645"
+    }
+}

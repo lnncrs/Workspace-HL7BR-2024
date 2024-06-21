@@ -1,0 +1,42 @@
+{
+    "resourceType": "Specimen",
+    "identifier":
+    [
+        {
+            "use": "usual",
+            "value": "TMR23480-FH"
+        }
+    ],
+    "type":
+    {
+        "coding":
+        [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+                "code": "TUMOR",
+                "display": "Tumor"
+            }
+        ]
+    },
+    "subject":
+    {
+        "reference": "Patient/44766645"
+    },
+    "receivedTime": "2022-03-24T14:23:38",
+    "collection":
+    {
+        "collectedDateTime": "2022-03-24T09:11:20",
+        "bodySite":
+        {
+            "coding":
+            [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "80248007",
+                    "display": "mama esquerda"
+                }
+            ],
+            "text": "neoplasia maligna de mama"
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "resourceType": "Procedure",
+    "id": "44766794",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2024-06-21T18:09:44.237+00:00",
+        "source": "#kvShrhALnO1zOOdd"
+    },
+    "status": "completed",
+    "category": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "387713003",
+                "display": "Surgical procedure (procedure)"
+            }
+        ],
+        "text": "cirúrgico"
+    },
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "64368001",
+                "display": "mastectomia parcial"
+            }
+        ],
+        "text": "mastectomia parcial"
+    },
+    "subject": {
+        "reference": "Patient/44766645"
+    },
+    "performedDateTime": "2022-04-11T08:41:22",
+    "performer": [
+        {
+            "actor": {
+                "reference": "Practitioner/44766790"
+            }
+        }
+    ],
+    "bodySite": [
+        {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "80248007",
+                    "display": "mama esquerda"
+                }
+            ],
+            "text": "mama esquerda"
+        }
+    ]
+}

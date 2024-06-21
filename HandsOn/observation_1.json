@@ -1,0 +1,65 @@
+{
+    "resourceType": "Observation",
+    "status": "registered",
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                    "code": "laboratory",
+                    "display": "Laboratory"
+                }
+            ]
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "263605001",
+                "display": "dimensão do comprimento da neoplasia"
+            }
+        ],
+        "text": "dimensão do comprimento da neoplasia"
+    },
+    "subject":
+    {
+        "reference": "Patient/44766645"
+    },
+    "performer": [{
+        "reference": "Practitioner/44766790"
+    }],
+    "method": {
+        "coding": [
+            {
+                "system": "http://loinc.org",
+                "code": "24419-4",
+                "display": "observação macroscópica"
+            }
+        ],
+        "text": "observação macroscópica"
+    },
+    "specimen": {
+        "reference": "Specimen/44766674"
+    },
+    "component": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "371479009",
+                        "display": "Tumor size, largest dimension (observable entity)"
+                    }
+                ],
+                "text": "Tamanho do tumor na maior dimensão"
+            },
+            "valueQuantity": {
+                "value": 2.5,
+                "unit": "cm",
+                "system": "http://unitsofmeasure.org",
+                "code": "cm"
+            }
+        }
+    ]
+}

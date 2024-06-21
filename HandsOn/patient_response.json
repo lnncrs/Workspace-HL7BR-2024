@@ -1,0 +1,137 @@
+{
+    "resourceType": "Patient",
+    "id": "44766645",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2024-06-21T15:30:44.960+00:00",
+        "source": "#dTGutXQlfbXkXd3G"
+    },
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">James T. <b>KIRK </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ST123456</td></tr><tr><td>Address</td><td><span>1701 Enterprise Blvd </span><br/><span>San Francisco </span><span>CA </span><span>USA </span></td></tr><tr><td>Date of birth</td><td><span>22 March 2327</span></td></tr></tbody></table></div>"
+    },
+    "identifier": [
+        {
+            "use": "official",
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "PN",
+                        "display": "Person number"
+                    }
+                ]
+            },
+            "system": "http://national-person-identifier-system.example.com",
+            "value": "ST123456"
+        }
+    ],
+    "active": true,
+    "name": [
+        {
+            "use": "official",
+            "family": "Kirk",
+            "_family": {
+                "extension": [
+                    {
+                        "id": "humanname-fathers-family",
+                        "url": "http://hl7.org/fhir/StructureDefinition/humanname-fathers-family",
+                        "valueString": "Kirk"
+                    },
+                    {
+                        "id": "humanname-mothers-family",
+                        "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+                        "valueString": "Tiberius"
+                    }
+                ]
+            },
+            "given": [
+                "James",
+                "T."
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "555-555-5555",
+            "use": "home"
+        },
+        {
+            "system": "phone",
+            "value": "555-555-5678",
+            "use": "mobile"
+        },
+        {
+            "system": "email",
+            "value": "kirk.james@nc1701.com"
+        }
+    ],
+    "gender": "male",
+    "birthDate": "2327-03-22",
+    "address": [
+        {
+            "use": "home",
+            "line": [
+                "1701 Enterprise Blvd"
+            ],
+            "city": "San Francisco",
+            "state": "CA",
+            "postalCode": "94123",
+            "country": "USA"
+        }
+    ],
+    "maritalStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "W",
+                "display": "Widowed"
+            }
+        ]
+    },
+    "contact": [
+        {
+            "relationship": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                            "code": "E",
+                            "display": "Emergency Contact"
+                        }
+                    ]
+                }
+            ],
+            "name": {
+                "family": "Spock",
+                "given": [
+                    "S'chn T'gai"
+                ]
+            },
+            "telecom": [
+                {
+                    "system": "phone",
+                    "value": "+1-800-555-1234",
+                    "use": "mobile"
+                },
+                {
+                    "system": "email",
+                    "value": "spock@starfleet.com",
+                    "use": "home"
+                }
+            ],
+            "address": {
+                "use": "home",
+                "line": [
+                    "1701 Vulcan Way"
+                ],
+                "city": "San Francisco",
+                "state": "CA",
+                "postalCode": "94123",
+                "country": "USA"
+            },
+            "gender": "male"
+        }
+    ]
+}

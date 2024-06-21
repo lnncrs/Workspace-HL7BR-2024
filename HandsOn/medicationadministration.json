@@ -1,0 +1,48 @@
+{
+    "resourceType": "MedicationAdministration",
+    "status": "completed",
+    "medicationCodeableConcept": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "372817009",
+                "display": "Doxorrubicina"
+            }
+        ],
+        "text": "Doxorrubicina"
+    },
+    "subject": {
+        "reference": "Patient/44766645"
+    },
+    "effectiveDateTime": "2022-04-28T16:30:21",
+    "performer": [
+        {
+            "actor": {
+                "reference": "Practitioner/44766790"
+            }
+        }
+    ],
+    "note": [
+        {
+            "text": "doxorrubicina (60 mg/m² IV), 105,96 mg em 50 ml de solução salina normal a 0,9% administrada como infusão contínua. O paciente tolerou a infusão sem efeitos colaterais"
+        }
+    ],
+    "dosage": {
+        "text": "105,96 mg do medicamento foram administrados por via intravenosa",
+        "route": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "47625008",
+                    "display": "Intravenosa"
+                }
+            ],
+            "text": "Intravenosa"
+        },
+        "dose": {
+            "value": 105.96,
+            "unit": "mg"
+        }
+    }
+
+}
